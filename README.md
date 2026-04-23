@@ -1,4 +1,4 @@
-# JSage — Overview and Full Docs
+# JSage
 
 JSage is a compact JavaScript engine for 2D games and interactive canvas-driven websites. It’s intentionally small, practical, and designed to be dropped into a static site. The engine expects the repository layout (sage/, lib/) to exist in the project root.
 
@@ -52,13 +52,13 @@ sage.onUpdate((dt) => {
 
 Serve and visit your page. Use arrow keys to move the square.
 
-Full Docs (embedded)
+Full Docs
 
 Installation
 - Required: `sage/` (engine core and helpers) and `lib/` (third-party libraries like matter.js).
 - `scene` attribute may point to any `.sage.js` file. The engine will load and execute it if provided.
 
-API Reference (summary)
+API Reference
 Core
 - sage.createObject(type, x, y, props)
 - sage.getObjectById(id)
