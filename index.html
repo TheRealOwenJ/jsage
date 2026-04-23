@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      overflow: auto;
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+    }
+
+    canvas {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #ui-layer {
+      position: fixed;
+      inset: 0;
+      z-index: 999;
+      pointer-events: none;
+    }
+
+    #ui-layer > div {
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <div id="ui-layer"></div>
+  <canvas id="c"></canvas>
+  <script type="module" src="./sage/boot.js" id="engine" scene="./examples/main.sage.js"></script>
+</body>
+</html>
