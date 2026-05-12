@@ -11,7 +11,7 @@ Quick facts
 - Physics (optional): Matter.js integration
 - Built-in: objects, UI widgets (button/input/text), tweens, particles, camera, scene loader
 - Scene files: any .sage.js file can be used as the scene target
-- License: GNU GPL v3.0 (see LICENSE)
+- License: MIT License (see LICENSE)
 
 Important: JSage requires serving over HTTP(S). Opening index.html via file:// will break module/asset loading and is not supported. Use a simple static server (examples below).
 
